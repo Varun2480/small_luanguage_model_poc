@@ -41,4 +41,28 @@ async def get_restaurant(request: DishPayload):
         return {"message": "No suitable restaurants found."}
     
 
+
+@app.get("/privacy")
+async def privacy_policy():
+   """
+   Endpoint for the privacy policy.
+   Returns:
+       str: The privacy policy text.
+   """
+   policy_text = """
+   This is a sample privacy policy.
+   We may collect some information from you, such as:
+   - Your name
+   - Your email address
+   - Your usage data
+   We will use this information to:
+   - Provide you with our services
+   - Improve our services
+   - Communicate with you
+   We will not share your personal information with third parties, except as required by law.
+   You have the right to access, update, and delete your personal information.
+   If you have any questions about our privacy policy, please contact us.
+   """
+   return policy_text
+
 # curl -X POST 'http://127.0.0.1:8000/restaurant/' -H "Content-Type: application/json" -d '{"dish_name": "Pizza", "dish_type":"veg", "budget": 350}'
