@@ -84,8 +84,8 @@ async def get_dishes(request: DishPayload):
     df = pd.read_csv('restaurant_dataset.csv')
     # Filter the DataFrame based on the input parameters
     filtered_df = df[
-        (df['dish_category'] == request.dish_name) &
-        (df['dish_type'] == request.dish_type) &
+        (df['dish_category'].str.lower() == request.dish_name.lower()) &
+        (df['dish_type'].str.lower() == request.dish_type.lower()) &
         (df['budget'] <= request.budget)
     ]
 
