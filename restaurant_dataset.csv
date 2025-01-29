@@ -1,0 +1,101 @@
+dish_category,dish_name,dish_type,budget,restaurant_name
+Taco,Fish Taco,non-veg,300,Taco Bell
+Idli,Idli with Chutney,veg,500,Saravana Bhavan
+Salad,Chicken Salad,veg,350,Sweetgreen
+Biryani,Chicken Biryani,veg,100,Bawarchi
+Dosa,Masala Dosa,non-veg,400,Udupi Sri Krishna Vilas
+Wrap,Burrito,veg,450,Qdoba Mexican Eats
+Wrap,Chicken Wrap,non-veg,450,Freebirds World Burrito
+Vada,Dahi Vada,non-veg,250,Saravana Bhavan
+Pasta,Arrabiata Pasta,non-veg,100,The Cheesecake Factory
+Idli,Idli with Chutney,veg,350,Madras Cafe
+Pasta,Arrabiata Pasta,non-veg,250,Olive Garden
+Vada,Medu Vada,veg,400,Vada Pav King
+Dosa,Mysore Masala Dosa,veg,300,Saravana Bhavan
+Salad,Chicken Salad,non-veg,400,Saladworks
+Vada,Sambar Vada,veg,500,Vada Pav King
+Salad,Veg Salad,veg,200,Chopt Creative Salad Co.
+Pizza,Hawaiian Pizza,non-veg,250,Dominos
+Vada,Masala Vada,non-veg,500,Vada Pav King
+Kebabs,Reshmi Kebab,veg,250,Barbeque Nation
+Idli,Steamed Idli,veg,100,Madras Cafe
+Kebabs,Reshmi Kebab,non-veg,150,Karim's
+Sandwich,Club Sandwich,non-veg,400,Subway
+Sandwich,Veg Sandwich,veg,200,Quiznos
+Salad,Veg Salad,non-veg,250,Saladworks
+Pizza,BBQ Chicken Pizza,non-veg,100,Pizza Hut
+Biryani,Mutton Biryani,non-veg,150,Hyderabad House
+Vada,Sambar Vada,veg,150,Vinayaka Mylari
+Idli,Idli with Sambar,veg,250,Saravana Bhavan
+Pizza,Paneer Tikka Pizza,veg,350,Papa Johns
+Dosa,Mysore Masala Dosa,non-veg,300,Dosa Hut
+Wrap,Veggie Wrap,veg,300,Chipotle
+Biryani,Fish Biryani,non-veg,200,Bawarchi
+Kebabs,Galouti Kebab,veg,450,The Great Kabab Factory
+Idli,Rava Idli,non-veg,150,Madras Cafe
+Kebabs,Reshmi Kebab,non-veg,400,The Great Kabab Factory
+Sandwich,BLT Sandwich,veg,400,Subway
+Wrap,Falafel Wrap,non-veg,400,Chipotle
+Taco,Non-veg Taco,non-veg,300,Baja Fresh
+Pasta,White Sauce Pasta,veg,450,Romano's Macaroni Grill
+Kebabs,Galouti Kebab,non-veg,450,Karim's
+Wrap,Falafel Wrap,non-veg,400,Chipotle
+Taco,Chicken Taco,veg,500,Chronic Tacos
+Pizza,Mushroom Pizza,veg,350,Dominos
+Taco,Beef Taco,veg,350,Baja Fresh
+Vada,Onion Vada,veg,200,Vinayaka Mylari
+Wrap,Falafel Wrap,non-veg,200,Moe's Southwest Grill
+Burger,Veggie Burger,non-veg,500,McDonald's
+Kebabs,Reshmi Kebab,non-veg,250,The Great Kabab Factory
+Biryani,Mutton Biryani,non-veg,400,Hyderabad House
+Idli,Idli with Chutney,veg,150,Saravana Bhavan
+Wrap,Paneer Wrap,veg,450,Chipotle
+Pizza,BBQ Chicken Pizza,veg,200,Pizza Hut
+Pasta,Alfredo,veg,300,Olive Garden
+Sandwich,BLT Sandwich,veg,200,Quiznos
+Biryani,Fish Biryani,non-veg,150,Paradise Biryani
+Idli,Idli with Sambar,veg,500,Idli Factory
+Biryani,Chicken Biryani,non-veg,250,Behrouz Biryani
+Idli,Idli with Chutney,non-veg,200,Dakshin
+Pasta,White Sauce Pasta,veg,500,Romano's Macaroni Grill
+Pasta,Lasagna,veg,250,Fazoli's
+Pizza,Hawaiian Pizza,non-veg,150,Papa Johns
+Sandwich,BLT Sandwich,non-veg,250,Panera Bread
+Salad,Greek Salad,veg,450,Saladworks
+Pasta,Lasagna,veg,150,The Cheesecake Factory
+Pizza,Hawaiian Pizza,non-veg,500,Little Italy
+Pasta,Arrabiata Pasta,veg,400,The Cheesecake Factory
+Vada,Sambar Vada,non-veg,350,Vada Pav King
+Biryani,Mutton Biryani,non-veg,400,Behrouz Biryani
+Idli,Fried Idli,veg,300,Saravana Bhavan
+Biryani,Veg Biryani,veg,100,Hyderabad House
+Sandwich,Chicken Sandwich,veg,200,Subway
+Taco,Beef Taco,veg,150,Chronic Tacos
+Burger,Fish Burger,non-veg,250,McDonald's
+Biryani,Prawn Biryani,veg,300,Behrouz Biryani
+Taco,Fish Taco,veg,300,Del Taco
+Burger,Fish Burger,veg,450,Wendy's
+Pizza,Classic Margherita,veg,300,Little Italy
+Pasta,Lasagna,non-veg,450,Olive Garden
+Dosa,Plain Dosa,non-veg,250,Saravana Bhavan
+Dosa,Masala Dosa,veg,500,Dosa Hut
+Salad,Chicken Salad,non-veg,450,Chopt Creative Salad Co.
+Kebabs,Chicken Kebabs,non-veg,350,Al Jawahar
+Dosa,Paper Dosa,non-veg,400,Madras Cafe
+Pasta,Arrabiata Pasta,non-veg,150,Olive Garden
+Idli,Steamed Idli,veg,250,Dakshin
+Idli,Idli with Chutney,veg,250,Madras Cafe
+Idli,Idli with Sambar,veg,500,Madras Cafe
+Wrap,Paneer Wrap,non-veg,250,Qdoba Mexican Eats
+Kebabs,Galouti Kebab,non-veg,400,Al Jawahar
+Pizza,Mushroom Pizza,non-veg,500,Little Italy
+Wrap,Falafel Wrap,non-veg,350,Chipotle
+Biryani,Prawn Biryani,non-veg,250,Hyderabad House
+Sandwich,Tuna Sandwich,non-veg,350,Subway
+Pizza,Mushroom Pizza,veg,150,Pizza Hut
+Taco,Shrimp Taco,non-veg,150,Del Taco
+Kebabs,Hara Bhara Kebab,veg,100,The Great Kabab Factory
+Pizza,Pepperoni Pizza,non-veg,200,Pizza Hut
+Sandwich,Club Sandwich,veg,500,Subway
+Biryani,Fish Biryani,non-veg,450,Behrouz Biryani
+Taco,Shrimp Taco,veg,250,Chronic Tacos

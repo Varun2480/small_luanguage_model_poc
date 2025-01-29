@@ -1,7 +1,12 @@
 from typing import Optional, List
 
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
+import pandas as pd
+import logging
+
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s -%(message)s')
+LOGGER = logging.getLogger(__name__)
 
 app = FastAPI()
 
@@ -9,6 +14,9 @@ class DishPayload(BaseModel):
     dish_name: str
     dish_type: str
     budget: int
+
+class RestaurantDishesResponse(BaseModel):
+    restaurants: dict[str, list[str]]
 
 @app.post("/restaurant/")
 async def get_restaurant(request: DishPayload):
@@ -65,4 +73,31 @@ async def privacy_policy():
    """
    return policy_text
 
-# curl -X POST 'http://127.0.0.1:8000/restaurant/' -H "Content-Type: application/json" -d '{"dish_name": "Pizza", "dish_type":"veg", "budget": 350}'
+@app.post("/restaurant/v2/", response_model=RestaurantDishesResponse)
+async def get_dishes(request: DishPayload):
+    """
+    Returns suitable restaurantsand available dishes based on dish name, type, and budget.
+    """
+
+    LOGGER.info(f"Request Payload is: {request}")
+
+    df = pd.read_csv('restaurant_dataset.csv')
+    # Filter the DataFrame based on the input parameters
+    import pdb; pdb.set_trace()
+    filtered_df = df[
+        (df['dish_category'] == request.dish_name) &
+        (df['dish_type'] == request.dish_type) &
+        (df['budget'] <= request.budget)
+    ]
+
+    LOGGER.info(f"Dataframe Created from the restaurants dataset.")
+    # Check if any restaurants match the criteria
+    if filtered_df.empty:
+        raise HTTPException(status_code=404, detail="No matching restaurants found")
+
+    # Get the first matching restaurant and dish type
+    # Group by restaurant name and get list of dishes
+    restaurant_dishes = filtered_df.groupby('restaurant_name')['dish_name'].apply(list).to_dict()
+
+    LOGGER.info(f"Returning restaurants and dishes: {restaurant_dishes}")
+    return {"restaurants": restaurant_dishes}
